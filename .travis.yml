@@ -5,6 +5,9 @@
 # For more information, see https://github.com/haskell-CI/haskell-ci
 #
 language: c
+arch:
+  - amd64
+  - ppc64le
 dist: xenial
 
 git:
